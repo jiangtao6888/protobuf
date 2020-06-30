@@ -14,17 +14,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
+	"github.com/jiangtao6888/protobuf/proto"
+	"github.com/jiangtao6888/protobuf/ptypes"
 
-	pb2 "github.com/golang/protobuf/internal/testprotos/jsonpb_proto"
-	pb3 "github.com/golang/protobuf/internal/testprotos/proto3_proto"
-	descpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	anypb "github.com/golang/protobuf/ptypes/any"
-	durpb "github.com/golang/protobuf/ptypes/duration"
-	stpb "github.com/golang/protobuf/ptypes/struct"
-	tspb "github.com/golang/protobuf/ptypes/timestamp"
-	wpb "github.com/golang/protobuf/ptypes/wrappers"
+	pb2 "github.com/jiangtao6888/protobuf/internal/testprotos/jsonpb_proto"
+	pb3 "github.com/jiangtao6888/protobuf/internal/testprotos/proto3_proto"
+	descpb "github.com/jiangtao6888/protobuf/protoc-gen-go/descriptor"
+	anypb "github.com/jiangtao6888/protobuf/ptypes/any"
+	durpb "github.com/jiangtao6888/protobuf/ptypes/duration"
+	stpb "github.com/jiangtao6888/protobuf/ptypes/struct"
+	tspb "github.com/jiangtao6888/protobuf/ptypes/timestamp"
+	wpb "github.com/jiangtao6888/protobuf/ptypes/wrappers"
 )
 
 var (

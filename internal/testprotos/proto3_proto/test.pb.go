@@ -5,8 +5,8 @@ package proto3_proto
 
 import (
 	fmt "fmt"
-	proto2_proto "github.com/golang/protobuf/internal/testprotos/proto2_proto"
-	proto "github.com/golang/protobuf/proto"
+	proto2_proto "github.com/jiangtao6888/protobuf/internal/testprotos/proto2_proto"
+	proto "github.com/jiangtao6888/protobuf/proto"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 	math "math"
 )

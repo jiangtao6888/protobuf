@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/jiangtao6888/protobuf/proto"
 
-	descriptorpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	anypb "github.com/golang/protobuf/ptypes/any"
+	descriptorpb "github.com/jiangtao6888/protobuf/protoc-gen-go/descriptor"
+	anypb "github.com/jiangtao6888/protobuf/ptypes/any"
 )
 
 func TestMarshalUnmarshal(t *testing.T) {

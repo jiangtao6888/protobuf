@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/jiangtao6888/protobuf/proto"
 
-	tspb "github.com/golang/protobuf/ptypes/timestamp"
+	tspb "github.com/jiangtao6888/protobuf/ptypes/timestamp"
 )
 
 var tests = []struct {

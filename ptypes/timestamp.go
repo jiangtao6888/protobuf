@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	timestamppb "github.com/golang/protobuf/ptypes/timestamp"
+	timestamppb "github.com/jiangtao6888/protobuf/ptypes/timestamp"
 )
 
 // Range of google.protobuf.Duration as specified in timestamp.proto.

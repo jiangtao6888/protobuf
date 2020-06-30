@@ -32,16 +32,16 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/protoc-gen-go/generator/internal/remap"
+	"github.com/jiangtao6888/protobuf/proto"
+	"github.com/jiangtao6888/protobuf/protoc-gen-go/generator/internal/remap"
 
-	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
+	"github.com/jiangtao6888/protobuf/protoc-gen-go/descriptor"
+	plugin "github.com/jiangtao6888/protobuf/protoc-gen-go/plugin"
 )
 
 func init() {
 	fmt.Fprint(os.Stderr,
-		"WARNING: Package \"github.com/golang/protobuf/protoc-gen-go/generator\" is deprecated.\n"+
+		"WARNING: Package \"github.com/jiangtao6888/protobuf/protoc-gen-go/generator\" is deprecated.\n"+
 			"\tA future release of golang/protobuf will delete this package,\n"+
 			"\twhich has long been excluded from the compatibility promise.\n\n")
 }
@@ -1300,7 +1300,7 @@ func (g *Generator) generateImports() {
 	g.P("import (")
 	g.P(g.Pkg["fmt"] + ` "fmt"`)
 	g.P(g.Pkg["math"] + ` "math"`)
-	g.P(g.Pkg["proto"]+" ", GoImportPath(g.ImportPrefix)+"github.com/golang/protobuf/proto")
+	g.P(g.Pkg["proto"]+" ", GoImportPath(g.ImportPrefix)+"github.com/jiangtao6888/protobuf/proto")
 	for importPath, packageName := range imports {
 		g.P(packageName, " ", GoImportPath(g.ImportPrefix)+importPath)
 	}

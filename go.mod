@@ -1,6 +1,6 @@
-module github.com/golang/protobuf
+module github.com/jiangtao6888/protobuf
 
-go 1.9
+go 1.14
 
 require (
 	github.com/google/go-cmp v0.4.0
